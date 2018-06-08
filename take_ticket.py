@@ -12,8 +12,8 @@ driver = webdriver.Chrome(chromedriver)
 sleep(5)
 # driver.get('http://www.baidu.com/')
 driver.get("https://plogin.m.jd.com/user/login.action?appid=119&returnurl=http%3A%2F%2Fcredit.jd.com%2Fchannel%2Fcoupon.html%3Futm_medium%3Dundefined%26couponBusinessId%3D3a03ed87a4b19cab0adbb44e7f0e768e%26actId%3D004%26utm_term%3Dundefined%26agreementSource%3D74%26utm_source%3Dundefined%26utm_campaign%3Dundefined")
-usename = "15152114014"
-password ="yangtian8566@"
+usename = "用户名"
+password ="密码"
 
 driver.find_element_by_id("username").send_keys(usename)
 driver.find_element_by_id("password").send_keys(password)
